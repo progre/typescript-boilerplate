@@ -17,7 +17,7 @@
     "mocha": "^3.1.0",
     "power-assert": "^1.4.1",
     "source-map-support": "^0.4.3",
-    "ts-loader": "^0.8.2",
+    "ts-loader": "^0.9.3",
     "typescript": "^2.0.3",
     "typings": "^1.4.0",
     "uglify-save-license": "^0.4.1",
