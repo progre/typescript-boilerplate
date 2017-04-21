@@ -15,7 +15,7 @@
     "@types/power-assert": "^1.4.29",
     "@types/power-assert-formatter": "^1.4.28",
     "babel-core": "^6.24.0",
-    "babel-loader": "^6.4.1",
+    "babel-loader": "^7.0.0",
     "babel-plugin-espower": "^2.3.2",
     "babel-preset-babili": "^0.0.12",
     "babel-preset-env": "^1.3.2",
