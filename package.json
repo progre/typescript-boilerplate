@@ -31,7 +31,7 @@
     "tslint": "^5.4.0",
     "tslint-config-airbnb": "^5.2.0",
     "tslint-microsoft-contrib": "^5.0.0",
-    "tsutils": "1.6.0",
+    "tsutils": "2.5.0",
     "typescript": "^2.3.4",
     "uglify-save-license": "^0.4.1",
     "validate-commit-msg": "^2.12.1",
