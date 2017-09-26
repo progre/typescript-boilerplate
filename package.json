@@ -17,7 +17,7 @@
     "ts-loader": "^2.3.7",
     "tslint": "^5.7.0",
     "tslint-language-service": "^0.9.6",
-    "tsutils": "1.6.0",
+    "tsutils": "2.9.0",
     "typescript": "^2.5.2",
     "uglify-save-license": "^0.4.1",
     "validate-commit-msg": "^2.14.0",
