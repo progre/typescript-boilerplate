@@ -1,4 +1,3 @@
-try { require('source-map-support').install(); } catch (e) { /* NOP */ }
 import module from './module';
 
 async function main() {
