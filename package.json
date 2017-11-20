@@ -30,6 +30,7 @@
   },
   "scripts": {
     "commitmsg": "commitlint -e $GIT_PARAMS",
+    "dev": "ts-node --project tsconfig-dev.json .",
     "start": "ts-node ."
   }
 }
