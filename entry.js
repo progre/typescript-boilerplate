@@ -1,1 +1,4 @@
-module.exports = require('./src/index').default;
+'use strict';
+
+require('ts-node').register();
+require('./src/index');
