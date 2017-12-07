@@ -2,23 +2,29 @@
   "name": "typescript-boilerplate",
   "description": "Boilerplate for TypeScript project.",
   "version": "1.0.0",
+  "bin": {
+    "typescript-boilerplate": "./bin/typescript-boilerplate"
+  },
   "bugs": {
     "url": "https://github.com/progre/typescript-boilerplate/issues"
   },
   "dependencies": {
     "@types/node": "^8.0.28",
     "ts-node": "^3.3.0",
-    "tslint": "^5.8.0",
-    "tslint-language-service": "^0.9.6",
     "typescript": "^2.6.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^5.0.1",
     "@commitlint/config-angular": "^5.0.1",
     "@progre/tslint-config": "~5.3.0",
-    "husky": "^0.14.3"
+    "husky": "^0.14.3",
+    "tslint": "^5.8.0",
+    "tslint-language-service": "^0.9.6"
   },
   "files": [
+    "bin",
+    "src",
+    "tsconfig.json"
   ],
   "homepage": "https://github.com/progre/typescript-boilerplate#readme",
   "license": "CC0-1.0",
