@@ -22,7 +22,7 @@
     "tslint-language-service": "^0.9.8",
     "typescript": "^2.7.1",
     "uglify-save-license": "^0.4.1",
-    "webpack": "^3.10.0"
+    "webpack": "^4.0.0"
   },
   "files": [
     "lib"
