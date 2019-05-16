@@ -1,5 +1,6 @@
-// tslint:disable-next-line:no-implicit-dependencies
+// eslint-disable-next-line global-require, import/no-extraneous-dependencies
 try { require('source-map-support').install(); } catch (e) { /* NOP */ }
+// eslint-disable-next-line import/first
 import module from './module';
 
 async function main() {
