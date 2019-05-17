@@ -1,19 +1,9 @@
 {
-  "extends": [
-    "airbnb"
-  ],
-  "plugins": [
-    "@typescript-eslint"
-  ],
+  "extends": ["airbnb"],
+  "plugins": ["@typescript-eslint"],
   "parser": "@typescript-eslint/parser",
   "rules": {
-    "import/extensions": [
-      ".js",
-      ".jsx",
-      ".json",
-      ".ts",
-      ".tsx"
-    ]
+    "import/extensions": [".js", ".json", ".jsx", ".ts", ".tsx"]
   },
   "settings": {
     "import/resolver": {
