@@ -3,13 +3,6 @@
   "plugins": ["@typescript-eslint"],
   "parser": "@typescript-eslint/parser",
   "rules": {
-    "import/extensions": [".js", ".json", ".jsx", ".ts", ".tsx"]
-  },
-  "settings": {
-    "import/resolver": {
-      "webpack": {
-        "config": "webpack.config.js"
-      }
-    }
+    "import/no-unresolved": false
   }
 }
