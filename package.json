@@ -9,7 +9,7 @@
     "url": "https://github.com/progre/typescript-boilerplate/issues"
   },
   "dependencies": {
-    "ts-node": "^7.0.1",
+    "ts-node": "^8.1.0",
     "typescript": "^3.1.6"
   },
   "devDependencies": {
