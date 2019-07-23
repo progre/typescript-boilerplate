@@ -1,4 +1,5 @@
 /* eslint-disable global-require, import/first, import/no-extraneous-dependencies */
+// eslint-disable-next-line prettier/prettier
 try { require('source-map-support').install(); } catch (e) { /* NOP */ }
 import { app, BrowserWindow } from 'electron';
 import module from './module';
@@ -12,6 +13,9 @@ async function main() {
     height: 600,
     resizable: true,
     show: false,
+    webPreferences: {
+      nodeIntegration: true, // TODO: 不要なら消して無効にする
+    },
   });
   win.on('ready-to-show', () => {
     win.show();
@@ -20,4 +24,6 @@ async function main() {
   await module();
 }
 
-main().catch((e) => { console.error(e.stack || e); });
+main().catch((e) => {
+  console.error(e.stack || e);
+});
