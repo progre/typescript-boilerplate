@@ -4,23 +4,12 @@
     "declarationDir": ".",
     "esModuleInterop": true,
     "jsx": "react",
-    "lib": [
-      "es2017",
-      "dom",
-      "dom.iterable"
-    ],
+    "lib": ["es2017", "dom", "dom.iterable"],
     "module": "commonjs",
     "noUnusedLocals": true,
-    "plugins": [
-      {
-        "name": "tslint-language-service"
-      }
-    ],
     "skipLibCheck": true,
     "strict": true,
     "target": "es2017"
   },
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }

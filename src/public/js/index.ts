@@ -4,4 +4,6 @@ async function main() {
   await module();
 }
 
-main().catch((e) => { console.error(e.stack || e); });
+main().catch((e) => {
+  console.error(e.stack || e);
+});

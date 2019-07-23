@@ -1,8 +1,8 @@
-// tslint:disable:no-implicit-dependencies
+/* eslint-disable global-require, import/first, import/no-extraneous-dependencies */
 try { require('source-map-support').install(); } catch (e) { /* NOP */ }
 import { app, BrowserWindow } from 'electron';
-// tslint:enable:no-implicit-dependencies
 import module from './module';
+/* eslint-enable global-require, import/first, import/no-extraneous-dependencies */
 
 async function main() {
   await new Promise((resolve, reject) => app.once('ready', resolve));
