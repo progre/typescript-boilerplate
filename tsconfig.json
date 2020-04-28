@@ -4,12 +4,18 @@
     "declarationDir": ".",
     "esModuleInterop": true,
     "jsx": "react",
-    "lib": ["es2017", "dom", "dom.iterable"],
-    "module": "commonjs",
+    "lib": [
+      "es2017",
+      "dom",
+      "dom.iterable"
+    ],
     "noUnusedLocals": true,
     "skipLibCheck": true,
     "strict": true,
     "target": "es5"
   },
-  "exclude": ["node_modules"]
+  "exclude": [
+    "*.d.ts",
+    "node_modules",
+  ]
 }
